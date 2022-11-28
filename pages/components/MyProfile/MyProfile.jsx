@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import { IoDiamondOutline, IoShareSocialOutline } from "react-icons/io5";
 
@@ -35,10 +36,11 @@ const MyProfile = () => {
         <div className="ml-14">
           <div className="border-2 px-5 py-2 mt-10 ">
             <div className="flex items-center">
-              <img
+              <Image
                 src="https://i.ibb.co/n6RwZ67/Vector-7.png"
                 alt=""
-                className="w-6 h-6"
+                height={24}
+                width={24}
               />
               <h1 className="font-normal text-base	tracking-wide	leading-6	ml-2">
                 Create Couple Profile Picture
@@ -76,7 +78,7 @@ const MyProfile = () => {
             <p className="font-normal text-xs		tracking-wide	leading-4 text-gray-500 mt-1 mx-2">
               Scan from your friends mobile and get connected
             </p>
-            <img
+            <Image
               src="https://i.ibb.co/kMM8PW7/9781118370711-fg0101-fmt-1.png"
               alt=""
               className="mt-2 ml-12"

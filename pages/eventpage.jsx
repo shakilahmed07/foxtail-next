@@ -103,10 +103,11 @@ const EventPage = () => {
         </div>
         <div className="border-2 px-3">
           <h1 className="text-lg font-medium py-2">Map View</h1>
-          <img
+          <Image
             src="https://i.ibb.co/wYxpqP9/Rectangle-116.png"
             alt=""
-            className="w-full h-[400px] mb-4"
+            className="w-full mb-4"
+            height={400}
           />
         </div>
       </div>

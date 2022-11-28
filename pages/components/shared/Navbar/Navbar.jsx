@@ -4,6 +4,7 @@ import Icons from "../../Icons/Icons";
 import { HiX, HiMenu } from "react-icons/hi";
 import { FiSearch } from "react-icons/fi";
 import Link from "next/link";
+import Image from "next/image";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -18,11 +19,14 @@ const Navbar = () => {
           {open ? <HiX className="w-7 h-7" /> : <HiMenu className="w-7 h-7" />}
         </div>
         <div>
-          <img
+          <Image
             src="https://i.ibb.co/Cvj6VX3/Group-62.png"
             alt=""
-            className="md:mr-20 w-3/4 h-3/4 md:h-1/2 md:w-1/2"
+            className="md:mr-20 md:h-1/2 md:w-1/2"
+            width={75}
+            height={75}
           />
+          
         </div>
         <div className="flex justify-center items-center text-center ">
           <ul>
