@@ -11,23 +11,22 @@ const MyProfile = () => {
             My Profile
           </h1>
           <div className="font-normal text-xl leading-6 tracking-wide	py-2">
-            <link rel="stylesheet" href="" className="block" />
+        
             <h3 className=" hover:bg-pink-100 bg-white hover:border-l-8 hover:border-fuchsia-600 py-2 border-l-8 border-white pl-2">
               Account Information
             </h3>
-            <link rel="stylesheet" href="" className="block" />
+
             <h3 className="hover:bg-pink-100 bg-white hover:border-l-8 hover:border-fuchsia-600 py-2 border-l-8 border-white pl-2">
               My Gallery
             </h3>
-            <link rel="stylesheet" href="" className="block" />
+          
             <h3 className=" hover:bg-pink-100 bg-white hover:border-l-8 hover:border-fuchsia-600 py-2 border-l-8 border-white pl-2">
               App Settings
             </h3>
-            <link rel="stylesheet" href="" className="block" />
+
             <h3 className=" hover:bg-pink-100 bg-white hover:border-l-8 hover:border-fuchsia-600 py-2 border-l-8 border-white pl-2">
               Subscription & Settings
             </h3>
-            <link rel="stylesheet" href="" className="block" />
             <h3 className=" hover:bg-pink-100 bg-white hover:border-l-8 hover:border-fuchsia-600 py-2 border-l-8 border-white pl-2">
               Account Settings
             </h3>
